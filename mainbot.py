@@ -18,7 +18,7 @@ def create_api():
         raise e
     print('API created')
     return api
-    import tweepy
+import tweepy
 import time
 def emoji_follower_count(user):
     emoji_numbers = {0: "0️⃣", 1: "1️⃣", 2: "2️⃣", 3: "3️⃣",
@@ -49,3 +49,4 @@ def main():
       
         print("Waiting to refresh..")
         time.sleep(60)
+        
