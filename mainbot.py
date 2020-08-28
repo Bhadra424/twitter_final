@@ -5,8 +5,8 @@ import os # operating system library
 def create_api():
   consumer_key = 'ca7JN8RWZTRUMsph2pp52p7ta'
   consumer_secret = 'OtATrbPyF06dOxJrtShEky2O2ion57rPvGq0gah6tTGbykeT4k'
-  access_token = '1292096828226154501-PexfzZXy81w31TGSidIrnl2HCWa3mi'
-  access_token_secret = '0ZAAMJUNNHZITN4zn8QMre5ArpeuG8MPAi5gNoAdtbxUG'
+  access_token = '1292096828226154501-qakFiXZRjWyqCrediUU41JpIyR3WZk'
+  access_token_secret = 'fUBoPTqnyDweXuLWwqZngfKVqF4e1aDZURLssiRyme45E'
 
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_token_secret)
